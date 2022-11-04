@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="style/style.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <title>Visitor's Bureau</title>
+  </head>
+  <body id="fullHome">
+    <h1>Yosemite Visitor's Bureau</h1>
+   
+    <!--NavBar-->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="second.html"
+                >Activities in the Area</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="third.html">Popular Local Hikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fourth.html">Learn About the Area</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Jumbotron-->
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to Yosemite</h1>
+      <img
+      src="images/jumbotron-photo.png"
+      alt="Yosemite Park"
+      width="450"
+      height="450"
+    />
+      <p class="lead">
+        We are super excited that you are choose Yosemite for your next travel
+        destination. We look forward to welcoming you.
+      </p>
+      <hr class="my-4" />
+      <p>The country's biggest natural park. Learn more about the area</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="fourth.html" role="button"
+          >Learn more</a
+        >
+      </p>
+    </div>
+
+    <!--Information about Yosemite-->
+    <h2>What is Yosemite?</h2>
+    <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
+    <p>Yosemite National Park is in California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoia trees, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome. In Yosemite Village are shops, restaurants, lodging, the Yosemite Museum and the Ansel Adams Gallery, with prints of the photographer’s renowned black-and-white landscapes of the area.</p>
+    <img src="images/homeimage.png" alt="Yosemite" width="250" height="250">
+
+    <!--Cost-->
+    <h2>Cost of Yosemite</h2>
+    <table id="homeTable">
+      <tr>
+        <th>Description</th>
+        <th>Good For: </th>
+        <th>Cost</th>
+      </tr>
+      <tr>
+        <td>Individual (on foot, horseback, bus)</td>
+        <td>7 Days</td>
+        <td>$15</td>
+      </tr>
+      <tr>
+        <td>Motorcycle</td>
+        <td>7 Days</td>
+        <td>$30</td>
+      </tr>
+      <tr>
+        <td>Automobile</td>
+        <td>7 Days</td>
+        <td>$35</td>
+      </tr>
+      <tr>
+        <td>Yosemite Pass</td>
+        <td>1 Year</td>
+        <td>$70</td>
+      </tr>
+      <tr>
+        <td>Senior Pass 62+</td>
+        <td>Lifetime</td>
+        <td>$80</td>
+      </tr>
+
+    </table>
+
+
+
+    <script src="script/index.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
