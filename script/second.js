@@ -243,9 +243,7 @@ function displayActivity() {
         k = 5
     } else if (category.selectedIndex == 4) {
         k = 8
-    } else if (category.selectedIndex == 5) {
-        k = 10
-    }
+    } 
 
     for (let i = k; i < list.length + k; i++) {
 
